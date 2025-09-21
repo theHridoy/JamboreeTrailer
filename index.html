@@ -1,0 +1,122 @@
+!DOCTYPE html
+html lang=bn
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    title3rd National ICT Scout Jamboree 2025title
+    !-- Use the Hind Siliguri font for professional Bengali text --
+    link href=httpsfonts.googleapis.comcss2family=Hind+Siliguriwght@400;600;700&display=swap rel=stylesheet
+    !-- Tailwind CSS CDN --
+    script src=httpscdn.tailwindcss.comscript
+    style
+        body {
+            font-family 'Hind Siliguri', sans-serif;
+        }
+         Custom CSS to maintain 169 aspect ratio for the iframe 
+        .video-container {
+            position relative;
+            padding-bottom 56.25%;  169 Aspect Ratio 
+            height 0;
+            overflow hidden;
+            width 100%;
+        }
+        .video-container iframe {
+            position absolute;
+            top 0;
+            left 0;
+            width 100%;
+            height 100%;
+        }
+
+         Neon Glow Animation 
+        @keyframes pulse-glow {
+            0%, 100% {
+                box-shadow 0 0 5px #06b6d4, 0 0 10px #06b6d4, 0 0 15px #06b6d4;
+            }
+            50% {
+                box-shadow 0 0 10px #06b6d4, 0 0 20px #06b6d4, 0 0 30px #06b6d4;
+            }
+        }
+
+         Background animation for tech feel 
+        @keyframes flicker {
+            0% { opacity 0.8; }
+            50% { opacity 0.9; }
+            100% { opacity 0.8; }
+        }
+
+         Tech-inspired background effect 
+        .tech-bgafter {
+            content '';
+            position absolute;
+            top 0;
+            left 0;
+            width 100%;
+            height 100%;
+            background radial-gradient(circle at center, rgba(6, 182, 212, 0.05) 0%, rgba(6, 182, 212, 0.01) 30%, transparent 70%);
+            animation flicker 5s infinite;
+            z-index -1;
+        }
+
+         Optional Style for the scrollbar to match the dark theme 
+        -webkit-scrollbar {
+            width 8px;
+        }
+        -webkit-scrollbar-track {
+            background #1f2937;
+        }
+        -webkit-scrollbar-thumb {
+            background #06b6d4;
+            border-radius 4px;
+        }
+    style
+head
+body class=bg-slate-950 text-cyan-400 flex flex-col items-center justify-center min-h-screen p-4 tech-bg
+
+    !-- Header with Logo and Title --
+    header class=w-full flex items-center p-4
+        img src=httpsplacehold.co80x80292524whitetext=KALA alt=ICT Scout Jamboree Logo class=h-20 mr-4 rounded-lg
+        div class=flex-grow
+            h1 class=text-2xl smtext-3xl font-bold tracking-tight3rd National ICT Scout Jamboree 2025h1
+            p class=text-base smtext-lg text-slate-400Let Technology Serve Humanityp
+        div
+    header
+
+    !-- Main Content --
+    div class=max-w-4xl p-8 rounded-2xl mt-8 bg-slate-900 bg-opacity-70 border border-cyan-500 animate-pulse-glow
+        h2 class=text-3xl font-bold mb-4৩য় জাতীয় আইসিটি স্কাউট জাম্বুরি ২০২৫ – তোমাকে স্বাগতম!h2
+        p class=text-lg mb-4🎉 এবারের জাম্বুরির সবচেয়ে এক্সাইটিং ইভেন্টগুলোর একটি – সোশ্যাল মিডিয়া কনটেস্ট – শুরু হয়ে গেছে। তুমি কি প্রস্তুতp
+
+        h3 class=text-2xl font-semibold mt-6 mb-2কী করতে হবেh3
+        ul class=list-disc list-inside text-lg space-y-2 mb-6 text-slate-400
+            liনিচের ভিডিওটি দেখো। তারপর “ভিডিওটি ডাউনলোড করুন” বাটনে ক্লিক করে ভিডিওটি ডাউনলোড করো।li
+            liভিডিওটি আপলোড করো তোমার ফেসবুক প্রোফাইল বা পেইজে।li
+            liফেইসবুক প্রোফাইল নেই সমস্যা নেই। অভিভাবকের প্রোফাইল থেকেও আপলোড করতে পারো।li
+        ul
+
+        h3 class=text-2xl font-semibold mb-2অবশ্যই হ্যাশট্যাগগুলো ব্যবহার করোh3
+        p class=text-lg mb-4পোস্টে অবশ্যই এই তিনটি হ্যাশট্যাগ ব্যবহার করতে হবেp
+        ul class=list-disc list-inside text-lg space-y-2 mb-6 text-emerald-400 font-bold
+            li#ICT_Scout_Jamboree_2025li
+            li#প্রযুক্তি_হোক_সবারli
+            li#Tech_For_Humanityli
+        ul
+        p class=text-sm italic text-slate-400(হ্যাশট্যাগ ছাড়া কোন পোস্ট গ্রহণযোগ্য হবে না)p
+
+        h3 class=text-2xl font-semibold mt-6 mb-2সময়সীমাh3
+        p class=text-lg mb-6আজ সন্ধ্যা ৬ টার মধ্যে পোস্ট করতে হবে। সময় শেষ হওয়ার আগে আপলোড করে দাও।p
+
+        h3 class=text-2xl font-semibold mb-2পুরস্কারh3
+        p class=text-lg mb-6সবচেয়ে বেশি লাইক ও কমেন্ট পাওয়া পোস্ট ক্যাম্প ফায়ারে আকর্ষণীয় পুরস্কার জেতার সুযোগ পাবে।p
+        p class=text-xl font-bold text-emerald-400📢 এখনি শুরু করো। ভিডিও ডাউনলোড করো, পোস্ট করো, আর হ্যাশট্যাগ ব্যবহার করতে ভুলবে না।p
+    div
+
+    !-- Video and Download Section --
+    div class=w-full bg-slate-900 bg-opacity-70 rounded-2xl mt-8 border border-cyan-500 animate-pulse-glow
+        !-- Static Banner --
+        div class=video-container rounded-t-2xl flex items-center justify-center p-4 text-center bg-gray-800
+            img src=httpsplacehold.co1080x608292524whitetext=MALA alt=QR Code class=h-full w-full object-contain
+        div
+    div
+body
+html
